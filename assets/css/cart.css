@@ -1,0 +1,608 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+
+.i1{
+    color: white;
+}
+.allheaders {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header1 {
+    display: flex;
+    justify-content: center;
+}
+
+.header1 h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    color: #3d8bf3;
+}
+
+.header11 {
+    background-color: #3d8bf3;
+    width: 44px;
+    height: 44px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+}
+.header3 a{
+    text-decoration: none;
+}
+.header3 p {
+    font-size: 12px;
+    color: gray;
+    cursor: pointer;
+}
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #F7FAFC;
+    padding-bottom: 14px;
+}
+.mainz{
+    width: 90%;
+}
+.mainzz h1{
+    font-size: 21px;
+}
+.mainzz{
+    width: 100%;
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 14px;
+}
+#customers{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    background-color: white;
+}
+.cardBox img{
+    width: 80px;
+    height: 80px;
+    border-radius: 7px;
+    background-color: white;
+}
+.image1{
+    padding: 7px;
+    background-color: white;
+}
+.cardBox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gainsboro;
+}
+.wordsBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 14px;
+}
+.cardTextBox{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 7px;
+}
+.cardTextBox button{
+width: 70px;
+height: 30px;
+top: 86px;
+left: 91px;
+border-radius: 6px;
+border: 1px;
+gap: 10px;
+color: red;
+border: 1px solid gainsboro;
+background-color: white;
+cursor: pointer;
+}
+.mainzz1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 7px;
+}
+.mainzz11{
+    width: 100%;
+    height: 122px;
+    border: 1px solid gainsboro;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 14px;
+    gap: 7px;
+}
+.mainzz11 h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.customerz{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.addCoupon{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    pad: 7px;
+}
+.addCoupon input{
+    width: 120px;
+height: 40px;
+border-top-left-radius: 7px;
+border-bottom-left-radius: 7px;
+padding: 7px;
+border: 1px solid gainsboro;
+}
+.addCoupon input::placeholder{
+    font-weight: 600;
+color: rgb(168, 168, 168);
+}
+.addCoupon button{
+    border: 1px solid gainsboro;
+    width: 66px;
+    height: 40px;
+    border-top-right-radius: 7px;
+border-bottom-right-radius: 7px;
+background-color: white;
+color: #3d8bf3;
+font-weight: 600;
+    
+}
+.quantity{
+    width: 123px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 7px;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quantity img{
+    width: 21px;
+    height: 14px;
+}
+.mainx1{
+    width: 100%;
+    height: 302px;
+    border: 1px solid gainsboro;
+    border-radius: 7px;
+    background-color: white;
+}
+.mainzx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+}
+.mainx11{
+    padding: 14px;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid gainsboro;
+}
+.subTotal{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainx121{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainx12{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+    gap: 14px;
+}
+.mainx12 button{
+    width: 90%;
+    height: 54px;
+border-radius: 7px;
+gap: 10px;
+border: none;
+background-color: #00B517;
+color: white;
+font-size: 14px;
+font-weight: 600;
+
+}
+.troyCards img{
+    width: 34px;
+    height: 22px;
+    padding: 7px;
+}
+.backToShop{
+    width: 100%;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    background-color: white;
+    border-top: none;
+}
+.backToShop button{
+    width: 159px;
+height: 40px;
+border-radius: 6px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-right: 7px;
+cursor: pointer;
+border: none;
+background-color: #127FFF;
+color: white;
+font-size: 14px;
+font-weight: 600;
+}
+.backToShop a{
+text-decoration: none;  
+  background-color: none;
+}
+.priceAndCount{
+    display: flex;
+align-items: end;
+    flex-direction: column;
+    gap: 7px;
+}
+#removeAll{
+width: 115px;
+height: 40px;
+top: 659px;
+border-radius: 7px;
+border: 1px;
+gap: 10px;
+background-color: white;
+color: #127FFF;
+border: 1px solid gainsboro;
+}
+.mainc1 img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: gainsboro;
+    padding: 14px;
+}
+.mainc1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.mainc11 h1{
+    font-size: 16px;
+}
+.mainc11 h2{
+    font-size: 14px;
+    color: gray;
+}
+.mainc{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+    padding-right: 14px;
+}
+.cardExtra img{
+    width: 100%;
+    height: 240px;
+    border-radius: 7px;
+}
+#imgShop{
+    width: 22px;
+    height: 22px;
+    padding: 3px;
+}
+
+.cardExtra{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+}
+#extraProducts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border-radius: 7px;
+}
+.mainProducts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid gainsboro;
+    border-radius: 7px;
+    background-color: white;
+}
+.cardExtraTextBox{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 7px;
+}
+#cardExtraButton{
+    width: 156px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    color: #127FFF;
+    font-weight: 600;
+    border-radius: 7px;
+    border: 1px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    cursor: pointer;
+}
+.mainProducts h1{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 14px;
+}
+#p1{
+    color: gray;
+}
+
+.cardExtraTextBox p{
+    font-weight: 600;
+
+}
+.header3{
+    position: relative;
+}
+#cartCount{
+    width: 21px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -21%;
+    right: -1%;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}
+#likeCount{
+    top: -21%;
+    right: 24%;
+    width: 21px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(7, 135, 0);
+    color: white;
+    border-radius: 50%;
+}
+.superDiscount{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: #005bd2;
+    border-radius: 7px;
+}
+
+.super{
+    width: 100%;
+}
+.words{
+    position: absolute;
+    top: 33%;
+    left: 3%;
+}
+.words h1{
+    color: white;
+}
+.words p{
+    color: white;
+}
+.super button{
+    width: 108px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top: 33%;
+    right: 3%;
+}
+
+#counter{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+    footer{
+        width: 100%;
+        height: 303px;
+    }
+    .footer1111 {
+       background-color: #3d8bf3;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 44px;
+       height: 41px;
+       border-radius: 7px;
+    }
+    .footer111{
+        width: 150px;
+        height: 43px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 7px;
+    }
+    .footer111 h3{
+        color: #8CB7F5;
+    }
+    .footer11{
+        width: 276px;
+        height: 146px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 14px;
+    }
+    .footer11 p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgb(77, 77, 77);
+    }
+    .footer12 h1{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    
+    }
+    .footer12 p{
+        color: rgb(93, 93, 93);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+    }
+    .footer1{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .endimg{
+        width: 124px;
+    height: 39.28px;
+    background-color: black;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .footer12{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 7px;
+    }
+    .footer1{
+        padding: 21px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+    }
+    .footer2{
+        background-color: #eff2f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer21{
+        width: 90%;
+        height: 66px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer2 p{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+    }
+    .arrow{
+        transform: rotate(180deg);
+    }
